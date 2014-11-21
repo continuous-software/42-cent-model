@@ -1,0 +1,23 @@
+{
+  "name": "42-cent-model",
+  "version": "1.0.0",
+  "description": "Models to ease creation of 42-cent parameter entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuous-software/42-cent-model.git"
+  },
+  "keywords": [
+    "42-cent",
+    "model"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/continuous-software/42-cent-model/issues"
+  },
+  "homepage": "https://github.com/continuous-software/42-cent-model"
+}

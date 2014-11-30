@@ -1,10 +1,10 @@
 {
   "name": "42-cent-model",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Models to ease creation of 42-cent parameter entities",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV='test' node ./node_modules/.bin/mocha ./test/"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/continuous-software/42-cent-model/issues"
   },
-  "homepage": "https://github.com/continuous-software/42-cent-model"
+  "homepage": "https://github.com/continuous-software/42-cent-model",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
 }

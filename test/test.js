@@ -12,7 +12,7 @@ describe('models', function () {
             prospect = new Prospect();
         });
 
-        it('should set the profileId if there is a value', function () {
+        it('should setEventually the profileId if there is a value', function () {
             prospect.withProfileId('superId');
             assert.equal(prospect.profileId, 'superId');
         });
@@ -71,7 +71,7 @@ describe('models', function () {
             cc = new CreditCard();
         });
 
-        it('should set the values', function () {
+        it('should setEventually the values', function () {
             cc
                 .withCreditCardNumber('4111')
                 .withExpirationMonth('12')
@@ -93,7 +93,7 @@ describe('models', function () {
             sp = new SubscriptionPlan();
         });
 
-        it('should set the parameters', function () {
+        it('should setEventually the parameters', function () {
             sp
                 .withStartingDate(new Date())
                 .withIterationCount(4)

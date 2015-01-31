@@ -1,6 +1,6 @@
 {
   "name": "42-cent-model",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Models to ease creation of 42-cent parameter entities",
   "main": "index.js",
   "scripts": {

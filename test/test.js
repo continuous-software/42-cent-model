@@ -76,12 +76,12 @@ describe('models', function () {
                 .withCreditCardNumber('4111')
                 .withExpirationMonth('12')
                 .withExpirationYear('2014')
-                .withCvv('123');
+                .withCvv2('123');
 
             assert.equal(cc.creditCardNumber, '4111');
             assert.equal(cc.expirationMonth, '12');
             assert.equal(cc.expirationYear, '2014');
-            assert.equal(cc.cvv, '123');
+            assert.equal(cc.cvv2, '123');
         });
     });
 

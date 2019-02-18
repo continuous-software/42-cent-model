@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/continuous-software/42-cent-model",
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^6.0.0"
   }
 }
